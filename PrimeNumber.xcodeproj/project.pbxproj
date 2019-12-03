@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DBAAD7D2396A666003F1501 /* PrimeNumber WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0DBAAD7C2396A666003F1501 /* PrimeNumber WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0DBAAD832396A666003F1501 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DBAAD812396A666003F1501 /* Interface.storyboard */; };
+		0DBAAD852396A66A003F1501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DBAAD842396A66A003F1501 /* Assets.xcassets */; };
+		0DBAAD8C2396A66A003F1501 /* PrimeNumber WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0DBAAD8B2396A66A003F1501 /* PrimeNumber WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0DBAAD912396A66A003F1501 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAAD902396A66A003F1501 /* InterfaceController.swift */; };
+		0DBAAD932396A66A003F1501 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAAD922396A66A003F1501 /* ExtensionDelegate.swift */; };
+		0DBAAD952396A66A003F1501 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAAD942396A66A003F1501 /* NotificationController.swift */; };
+		0DBAAD972396A66B003F1501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DBAAD962396A66B003F1501 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DBAAD7E2396A666003F1501 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DBAAD722396A665003F1501 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DBAAD7B2396A666003F1501;
+			remoteInfo = "PrimeNumber WatchKit App";
+		};
+		0DBAAD8D2396A66A003F1501 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DBAAD722396A665003F1501 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DBAAD8A2396A66A003F1501;
+			remoteInfo = "PrimeNumber WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0DBAAD9F2396A66B003F1501 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0DBAAD8C2396A66A003F1501 /* PrimeNumber WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DBAADA32396A66B003F1501 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0DBAAD7D2396A666003F1501 /* PrimeNumber WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0DBAAD782396A666003F1501 /* PrimeNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DBAAD7C2396A666003F1501 /* PrimeNumber WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PrimeNumber WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DBAAD822396A666003F1501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		0DBAAD842396A66A003F1501 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DBAAD862396A66A003F1501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DBAAD8B2396A66A003F1501 /* PrimeNumber WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PrimeNumber WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DBAAD902396A66A003F1501 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		0DBAAD922396A66A003F1501 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		0DBAAD942396A66A003F1501 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		0DBAAD962396A66B003F1501 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DBAAD982396A66B003F1501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DBAAD992396A66B003F1501 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DBAAD882396A66A003F1501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DBAAD712396A665003F1501 = {
+			isa = PBXGroup;
+			children = (
+				0DBAAD802396A666003F1501 /* PrimeNumber WatchKit App */,
+				0DBAAD8F2396A66A003F1501 /* PrimeNumber WatchKit Extension */,
+				0DBAAD792396A666003F1501 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DBAAD792396A666003F1501 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAAD782396A666003F1501 /* PrimeNumber.app */,
+				0DBAAD7C2396A666003F1501 /* PrimeNumber WatchKit App.app */,
+				0DBAAD8B2396A66A003F1501 /* PrimeNumber WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DBAAD802396A666003F1501 /* PrimeNumber WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAAD812396A666003F1501 /* Interface.storyboard */,
+				0DBAAD842396A66A003F1501 /* Assets.xcassets */,
+				0DBAAD862396A66A003F1501 /* Info.plist */,
+			);
+			path = "PrimeNumber WatchKit App";
+			sourceTree = "<group>";
+		};
+		0DBAAD8F2396A66A003F1501 /* PrimeNumber WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAAD902396A66A003F1501 /* InterfaceController.swift */,
+				0DBAAD922396A66A003F1501 /* ExtensionDelegate.swift */,
+				0DBAAD942396A66A003F1501 /* NotificationController.swift */,
+				0DBAAD962396A66B003F1501 /* Assets.xcassets */,
+				0DBAAD982396A66B003F1501 /* Info.plist */,
+				0DBAAD992396A66B003F1501 /* PushNotificationPayload.apns */,
+			);
+			path = "PrimeNumber WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DBAAD772396A666003F1501 /* PrimeNumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DBAADA42396A66B003F1501 /* Build configuration list for PBXNativeTarget "PrimeNumber" */;
+			buildPhases = (
+				0DBAAD762396A666003F1501 /* Resources */,
+				0DBAADA32396A66B003F1501 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DBAAD7F2396A666003F1501 /* PBXTargetDependency */,
+			);
+			name = PrimeNumber;
+			productName = PrimeNumber;
+			productReference = 0DBAAD782396A666003F1501 /* PrimeNumber.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		0DBAAD7B2396A666003F1501 /* PrimeNumber WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DBAADA02396A66B003F1501 /* Build configuration list for PBXNativeTarget "PrimeNumber WatchKit App" */;
+			buildPhases = (
+				0DBAAD7A2396A666003F1501 /* Resources */,
+				0DBAAD9F2396A66B003F1501 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DBAAD8E2396A66A003F1501 /* PBXTargetDependency */,
+			);
+			name = "PrimeNumber WatchKit App";
+			productName = "PrimeNumber WatchKit App";
+			productReference = 0DBAAD7C2396A666003F1501 /* PrimeNumber WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		0DBAAD8A2396A66A003F1501 /* PrimeNumber WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DBAAD9C2396A66B003F1501 /* Build configuration list for PBXNativeTarget "PrimeNumber WatchKit Extension" */;
+			buildPhases = (
+				0DBAAD872396A66A003F1501 /* Sources */,
+				0DBAAD882396A66A003F1501 /* Frameworks */,
+				0DBAAD892396A66A003F1501 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PrimeNumber WatchKit Extension";
+			productName = "PrimeNumber WatchKit Extension";
+			productReference = 0DBAAD8B2396A66A003F1501 /* PrimeNumber WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DBAAD722396A665003F1501 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Diego Bergondo Cañas";
+				TargetAttributes = {
+					0DBAAD772396A666003F1501 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					0DBAAD7B2396A666003F1501 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					0DBAAD8A2396A66A003F1501 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 0DBAAD752396A665003F1501 /* Build configuration list for PBXProject "PrimeNumber" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DBAAD712396A665003F1501;
+			productRefGroup = 0DBAAD792396A666003F1501 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DBAAD772396A666003F1501 /* PrimeNumber */,
+				0DBAAD7B2396A666003F1501 /* PrimeNumber WatchKit App */,
+				0DBAAD8A2396A66A003F1501 /* PrimeNumber WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DBAAD762396A666003F1501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DBAAD7A2396A666003F1501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DBAAD852396A66A003F1501 /* Assets.xcassets in Resources */,
+				0DBAAD832396A666003F1501 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DBAAD892396A66A003F1501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DBAAD972396A66B003F1501 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DBAAD872396A66A003F1501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DBAAD952396A66A003F1501 /* NotificationController.swift in Sources */,
+				0DBAAD932396A66A003F1501 /* ExtensionDelegate.swift in Sources */,
+				0DBAAD912396A66A003F1501 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DBAAD7F2396A666003F1501 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DBAAD7B2396A666003F1501 /* PrimeNumber WatchKit App */;
+			targetProxy = 0DBAAD7E2396A666003F1501 /* PBXContainerItemProxy */;
+		};
+		0DBAAD8E2396A66A003F1501 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DBAAD8A2396A66A003F1501 /* PrimeNumber WatchKit Extension */;
+			targetProxy = 0DBAAD8D2396A66A003F1501 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DBAAD812396A666003F1501 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DBAAD822396A666003F1501 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DBAAD9A2396A66B003F1501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0DBAAD9B2396A66B003F1501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DBAAD9D2396A66B003F1501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66G8RDXP5W;
+				INFOPLIST_FILE = "PrimeNumber WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DiegoBergondo.PrimeNumber.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		0DBAAD9E2396A66B003F1501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66G8RDXP5W;
+				INFOPLIST_FILE = "PrimeNumber WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DiegoBergondo.PrimeNumber.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		0DBAADA12396A66B003F1501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66G8RDXP5W;
+				IBSC_MODULE = PrimeNumber_WatchKit_Extension;
+				INFOPLIST_FILE = "PrimeNumber WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = DiegoBergondo.PrimeNumber.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		0DBAADA22396A66B003F1501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66G8RDXP5W;
+				IBSC_MODULE = PrimeNumber_WatchKit_Extension;
+				INFOPLIST_FILE = "PrimeNumber WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = DiegoBergondo.PrimeNumber.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		0DBAADA52396A66B003F1501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66G8RDXP5W;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DiegoBergondo.PrimeNumber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0DBAADA62396A66B003F1501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66G8RDXP5W;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DiegoBergondo.PrimeNumber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DBAAD752396A665003F1501 /* Build configuration list for PBXProject "PrimeNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DBAAD9A2396A66B003F1501 /* Debug */,
+				0DBAAD9B2396A66B003F1501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DBAAD9C2396A66B003F1501 /* Build configuration list for PBXNativeTarget "PrimeNumber WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DBAAD9D2396A66B003F1501 /* Debug */,
+				0DBAAD9E2396A66B003F1501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DBAADA02396A66B003F1501 /* Build configuration list for PBXNativeTarget "PrimeNumber WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DBAADA12396A66B003F1501 /* Debug */,
+				0DBAADA22396A66B003F1501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DBAADA42396A66B003F1501 /* Build configuration list for PBXNativeTarget "PrimeNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DBAADA52396A66B003F1501 /* Debug */,
+				0DBAADA62396A66B003F1501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DBAAD722396A665003F1501 /* Project object */;
+}
