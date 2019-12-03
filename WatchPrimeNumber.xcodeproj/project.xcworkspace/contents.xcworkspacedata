@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:PrimeNumber.xcodeproj">
+      location = "self:/Users/murphy/Documents/PrimeNumber/WatchPrimeNumber.xcodeproj">
    </FileRef>
 </Workspace>

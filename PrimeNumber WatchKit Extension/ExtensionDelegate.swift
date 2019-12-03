@@ -1,6 +1,6 @@
 //
 //  ExtensionDelegate.swift
-//  PrimeNumber WatchKit Extension
+//  WatchPrimeNumber WatchKit Extension
 //
 //  Created by Diego Bergondo Cañas on 03/12/2019.
 //  Copyright © 2019 Diego Bergondo Cañas. All rights reserved.
