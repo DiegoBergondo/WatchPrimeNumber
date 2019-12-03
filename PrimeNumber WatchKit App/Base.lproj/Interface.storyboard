@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15501"/>
     </dependencies>
     <scenes>
-        <!--WatchPrimeNumber-->
+        <!--PrimeNumber-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller title="WatchPrimeNumber" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="PrimeNumber_WatchKit_App" customModuleProvider="target">
+                <controller title="PrimeNumber" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="PrimeNumber_WatchKit_App" customModuleProvider="target">
                     <items>
                         <textField width="1" alignment="center" text="0" id="PUH-UP-Myq">
                             <connections>
